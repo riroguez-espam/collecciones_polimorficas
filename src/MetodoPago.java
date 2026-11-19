@@ -43,5 +43,8 @@ public class MetodoPago {
         System.out.println("Monto Base: $" + montoBase);
         System.out.println("-------------------------------");
     }
-}
 
+    public void mostrarimpuesto() {
+        System.out.println("Impuesto desde clase principal ");
+    }
+}

@@ -32,4 +32,10 @@ public class PagoEfectivo extends MetodoPago {
         System.out.println("Vuelto: $" + calcularVuelto());
         System.out.println("------------------------------------------");
     }
+
+    @Override
+    public void mostrarimpuesto() {
+        System.out.println("Pago efectivo no lleva impuesto");
+    }
+
 }
